@@ -9,8 +9,11 @@
     <view class="content">
       <text class="user-motto">{{content}}\n</text>
     </view>
-    <view class="translate">
-      <text class="user-motto">{{translate}}\n</text>
+    <view class="content">
+      <text class="user-motto">\n</text>
+    </view>
+    <view class="translate" hidden="{{hiddentranslate}}">
+      <text class="user-motto">翻译：{{translate}}\n</text>
     </view>
 </view>
 <button type="default" plain="true" bindtap="again">下一首</button>
