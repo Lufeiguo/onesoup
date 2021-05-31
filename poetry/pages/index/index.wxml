@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto">{{title}}\n</text>
+    <view class="authorinfo">
+      <text class="user-motto">--{{dynasty}} {{author}}\n</text>
+    </view>
+  </view>
+    <view class="content">
+      <text class="user-motto">{{content}}\n</text>
+    </view>
+    <view class="translate">
+      <text class="user-motto">{{translate}}\n</text>
+    </view>
+</view>
+<button type="default" plain="true" bindtap="again">下一首</button>
+
